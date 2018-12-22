@@ -31,12 +31,6 @@
   }
 }
 
-.card {
-  background-color: #E79520;
-  color: #FFF;
-  font-size: 1.6em;
-}
-
 .links {
   margin-bottom: 16px;
 }
@@ -69,23 +63,27 @@
   position: absolute;
   top: 8px;
   left: 64px;
-  font-size: 64px;
+  font-size: 16px;
 }
 
 .topic {
   position: absolute;
-  left: 64px;
-  top: 84px;
+  left: 256px;
+  top: 32px;
 }
 
 .topic > button {
-  color: #636b6f;
+  color: #FFF;
   padding: 0 25px;
   font-size: 12px;
   font-weight: 600;
   letter-spacing: .1rem;
   text-decoration: none;
   text-transform: uppercase;
+  margin: 16px;
+  height: 32px;
+  border-radius: 8px;
+  background-color: #E79520;
 }
 
 .m-b-md {
@@ -95,5 +93,9 @@
 .news-list {
   position: absolute;
   left: 64px;
-  top: 128px;
+  top: 256px;
+}
+
+.rad {
+  border-radius: 8px;
 }

@@ -1,0 +1,30 @@
+.card {
+  background-color: #E79520;
+  color: #FFF;
+  font-size: 1.6em;
+  margin: 16px;
+  position: relative;
+  width: 888px;
+  height: 128px;
+}
+
+.card-img {
+  position: absolute;
+  left: 4px;
+  height: 128px;
+}
+
+.card-body {
+  position: absolute;
+  left: 182px;
+  text-align: left;
+}
+
+.card-title {
+  font-size: 32px;
+}
+
+.card-line {
+  font-size: 16px;
+}
+

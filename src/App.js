@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
+import logo from './logo.svg'
+import Card from './Card';
 
 class App extends Component {
 render() {
@@ -7,6 +9,7 @@ render() {
       <div className="flex-center position-ref full-height">
         <div className="content">
           <div className="title m-b-md">
+            <img className="" src={logo} alt="logo"></img>
             random game hub
           </div>
           <div className="topic">
@@ -19,22 +22,9 @@ render() {
           </div>
 
           <div className="news-list">
-
-            <div className="card">
-              <div className="card-header">NEWS</div>
-
-              <div className="card-body">
-                I'm an example NEWS!
-              </div>
-            </div>
-
-            <div className="card">
-              <div className="card-header">NEWS</div>
-
-              <div className="card-body">
-                I'm an example NEWS!
-              </div>
-            </div>
+            <Card />
+            <Card />
+            <Card />
 
           </div>
         </div>
