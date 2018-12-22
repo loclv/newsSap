@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 import './App.css';
 import logo from './logo.svg'
-import Card from './Card';
+import NewsList from './NewsList';
 
 class App extends Component {
-render() {
+  render() {
     return (
       <div className="flex-center position-ref full-height">
         <div className="content">
@@ -21,12 +21,7 @@ render() {
             <button>Game</button>
           </div>
 
-          <div className="news-list">
-            <Card />
-            <Card />
-            <Card />
-
-          </div>
+          <NewsList />
         </div>
       </div>
     );
