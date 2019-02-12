@@ -1,11 +1,11 @@
 .card {
-  background-color: #E79520;
+  background-color: #111;
   color: #FFF;
   font-size: 1.6em;
   margin: 16px;
   position: relative;
   width: 888px;
-  height: 128px;
+  overflow-wrap: break-word;
 }
 
 .card-img {
@@ -22,9 +22,19 @@
 
 .card-title {
   font-size: 32px;
+  margin-top: 8px;
 }
-
+.card-info {
+  font-size: 12px;
+  margin-bottom: 8px;
+  margin-top: 8px;
+}
 .card-line {
-  font-size: 16px;
+  width: auto;
+  height: 2px;
+  background-color: #DDD;
 }
-
+.card-summary {
+  font-size: 16px;
+  margin-top: 8px;
+}

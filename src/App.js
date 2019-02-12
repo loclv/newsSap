@@ -13,17 +13,25 @@ class App extends Component {
             random game hub
           </div>
           <div className="topic">
-            <button>PC Games</button>
-            <button>Mobile Games</button>
-            <button>Esport</button>
-            <button>Manga/Anime</button>
-            <button>Cosplay</button>
-            <button>Game</button>
+            <Topic name="PC Games" />
+            <Topic name="Mobile Games" />
+            <Topic name="Esport" />
+            <Topic name="Manga/Anime" />
+            <Topic name="Cosplay" />
+            <Topic name="Games" />
           </div>
 
           <NewsList />
         </div>
       </div>
+    );
+  }
+}
+
+class Topic extends Component {
+  render() {
+    return (
+      <button style={{color: '#000'}}>{this.props.name}</button>
     );
   }
 }
